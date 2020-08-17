@@ -7,7 +7,8 @@ public class testscores {
 	public static void main(String[] args) {
 	
 		String score = JOptionPane.showInputDialog("What did you get on your test? ");
-int response = Integer.parseInt(score);
+		double response = Double.parseDouble(score);
+
 
 if (response >= 90) {
 	JOptionPane.showMessageDialog(null, "Wow, good job!");
