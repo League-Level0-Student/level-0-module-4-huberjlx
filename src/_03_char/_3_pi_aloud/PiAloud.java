@@ -14,6 +14,7 @@ public class PiAloud {
 		
 		for (int i = 0; i < pi.length(); i++) {
 			System.out.println(pi.charAt(i));
+			
 		}
 	}
 	// 1. Make a main method and make sure your program can run
@@ -26,7 +27,7 @@ public class PiAloud {
 	// 4. Print ALL the digits of of the Pi String (hint: use a loop)
 
 	// 5. Use the speak() method below to speak each digit of Pi.
-
+	
 	// [CHALLENGE]
 	// *6. Get a character from the user using the getInputFromUser() method
 	// *7. Compare the users' char to the next digit of Pi
